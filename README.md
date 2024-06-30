@@ -14,7 +14,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Usage
 To run the scraper, use the following command:
-`node scraper.js --keywords="your,keywords" --startDate="YYYY-MM-DD" --endDate="YYYY-MM-DD" --geo="latitude,longitude,radius"`
+`!npx -y tweet-harvest@2.6.0 -o "{filename}" -s "{search_keyword}" --tab "LATEST" -l {limit} --token {twitter_auth_token}`
 
 ## Arguments
 - `filename` - The filename of csv typefile to store the output.
